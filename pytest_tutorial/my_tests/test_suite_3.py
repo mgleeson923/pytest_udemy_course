@@ -19,8 +19,7 @@ def test_login_page_valid_user(my_setup):
     print("Logging in with valid user")
     print("function: aaaaa")
     print("Name: {}".format(my_setup.get('name')))
-    import pdb;
-    pdb.set_trace()
+    # import pdb; pdb.set_trace()
 
 
 @pytest.mark.regression
