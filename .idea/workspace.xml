@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ssqaapitest-1.0-py3.11.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/test_healthcheck.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "section__5__test__case__discussion",
@@ -87,6 +93,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
