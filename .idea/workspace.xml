@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/ssqaapitest/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ssqaapitest-1.0-py3.11.egg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/test_healthcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +41,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "section__5__test__case__discussion",
-    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/pytest_tutorial/my_tests",
+    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/ssqaapitest",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssqaapitest" />
       <recent name="$PROJECT_DIR$/pytest_tutorial/my_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
