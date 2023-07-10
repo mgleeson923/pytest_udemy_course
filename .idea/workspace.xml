@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/credentialsUtilities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest_tutorial/my_tests/test_suite_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/helpers/customer_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/customer_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utlities/requestUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/requestUtilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2RRFdFgxu5mgRAm5DEmuDKLhq83" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,24 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "section3__crash__course__on__pytest",
-    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/pytest_tutorial/my_tests",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;section__5__test__case__discussion&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/ssqaapitest&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssqaapitest" />
       <recent name="$PROJECT_DIR$/pytest_tutorial/my_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pytest_tutorial" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_create_customer_smoke.test_create_customer_only_email_password">
+    <configuration name="Python tests for test_create_customer_smoke.test_create_customer_only_email_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pytest_training_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssqaapitest/tests/customers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_customer_smoke.test_create_customer_only_email_password&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_suite_1.test_login_page_wrong_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pytest_training_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_create_customer_smoke.test_create_customer_only_email_password" />
         <item itemvalue="Python tests.Python tests for test_suite_1.test_login_page_wrong_password" />
       </list>
     </recent_temporary>
@@ -84,6 +107,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
