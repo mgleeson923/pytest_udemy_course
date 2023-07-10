@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/customer_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/configs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/configs/hosts_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/requestUtilities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/helpers/customer_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/customer_helper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
