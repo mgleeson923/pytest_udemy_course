@@ -1,4 +1,5 @@
 import pymysql
+import logging as logger
 from ssqaapitest.src.utlities.credentialsUtilities import CredentialUtility
 
 
@@ -19,6 +20,7 @@ class DBUtility(object):
         conn = self.create_connection()
 
         try:
+            logger.debug(f"Executing {sql}")
             cur = conn.cursor(pymysql.cursors.DictCursor)
             cur.execute(sql)
             rs_dict = cur.fetchall()
