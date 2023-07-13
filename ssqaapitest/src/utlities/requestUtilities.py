@@ -20,9 +20,9 @@ class RequestUtilities(object):
         self.auth = OAuth1(wc_creds['wc_key'], wc_creds['wc_secret'])
 
     def assert_status_code(self):
-        assert self.rs_status_code == self.expected_status_code, f"Bad Status Code." \
-                                                                 f"Expected {self.expected_status_code}, Actual Status Code: {self.status_code}," \
-                                                                 f"URL: {self.url}, Response JSON: {self.rs_json}"
+        assert self.status_code == self.expected_status_code, f"Bad Status Code." \
+                                                              f"Expected {self.expected_status_code}, Actual Status Code: {self.status_code}," \
+                                                              f"URL: {self.url}, Response JSON: {self.rs_json}"
 
     def post(self, endpoint, payload=None, headers=None, expected_status_code=201):
         if not headers:
@@ -30,7 +30,7 @@ class RequestUtilities(object):
         self.url = self.base_url + endpoint
         rs_api = requests.post(url=self.url, data=json.dumps(payload), headers=headers, auth=self.auth)
         self.status_code = rs_api.status_code
-        self.expected_status_code = rs_api.expected_status_code
+        self.expected_status_code = expected_status_code
         self.rs_json = rs_api.json()
         self.assert_status_code()
 
