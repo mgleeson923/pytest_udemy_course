@@ -6,6 +6,7 @@ from ssqaapitest.src.dao.customer_dao import Customer_DAO
 from ssqaapitest.src.utlities.requestUtilities import RequestUtilities
 
 
+@pytest.mark.customers
 @pytest.mark.tcid29
 def test_create_customer_only_email_password():
     logger.info("Test: Create New Customer with Email and Password Only")
@@ -36,6 +37,7 @@ def test_create_customer_only_email_password():
                                   f'Email: {email}'
 
 
+@pytest.mark.customers
 @pytest.mark.tcid47
 def test_create_customer_fail_for_existing_email():
     # get existing email from Database
@@ -51,6 +53,5 @@ def test_create_customer_fail_for_existing_email():
     assert cust_api_info['code'] == 'registration-error-email-exists', f"Create Customer with existing" \
     f"email error 'code' is not correct. Expected: registration-error-email-exists, Actual: {cust_api_info['code']}"
 
-    assert cust_api_info['message'] == 'An account is already registered with your email address.', f"Create Customer" \
-    f" with existing email error 'message' is not correct. Expected: An account is already registered" \
-    f"with your email address., Actual: {cust_api_info['message']}"
+    assert cust_api_info['message'] == 'An account is already registered with your email address. <a href="#" class="showlogin">Please log in.</a>', \
+        f"Actual: {cust_api_info['message']}"
