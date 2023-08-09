@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/env.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_get_customers_smoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssqaapitest/src/dao/customer_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/customer_dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utlities/dbUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/dbUtilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utlities/requestUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/requestUtilities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "section__7__env__variables__database__helper__classes",
-    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/ssqaapitest",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;section__7__env__variables__database__helper__classes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/ssqaapitest&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ssqaapitest" />

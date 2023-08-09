@@ -3,6 +3,7 @@ import logging as logger
 from ssqaapitest.src.utlities.genericUtilities import generate_random_email_and_password
 from ssqaapitest.src.helpers.customer_helper import CustomerHelper
 from ssqaapitest.src.dao.customer_dao import Customer_DAO
+from ssqaapitest.src.utlities.requestUtilities import RequestUtilities
 
 
 @pytest.mark.tcid29
@@ -32,5 +33,24 @@ def test_create_customer_only_email_password():
     id_in_api = cust_api_info['id']
     id_in_db = cust_info[0]['ID']
     assert id_in_api == id_in_db, f'Create Customer Response ID not same as ID in Database' \
-                                f'Email: {email}'
+                                  f'Email: {email}'
 
+
+@pytest.mark.tcid47
+def test_create_customer_fail_for_existing_email():
+    # get existing email from Database
+    cust_dao = Customer_DAO()
+    existing_cust = cust_dao.get_random_customer_from_db()
+    existing_email = existing_cust[0]['user_email']
+
+    # Make API call
+    req_helper = RequestUtilities()
+    payload = {"email": existing_email, "password": "Password1"}
+    cust_api_info = req_helper.post(endpoint='customers', payload=payload, expected_status_code=400)
+
+    assert cust_api_info['code'] == 'registration-error-email-exists', f"Create Customer with existing" \
+    f"email error 'code' is not correct. Expected: registration-error-email-exists, Actual: {cust_api_info['code']}"
+
+    assert cust_api_info['message'] == 'An account is already registered with your email address.', f"Create Customer" \
+    f" with existing email error 'message' is not correct. Expected: An account is already registered" \
+    f"with your email address., Actual: {cust_api_info['message']}"
