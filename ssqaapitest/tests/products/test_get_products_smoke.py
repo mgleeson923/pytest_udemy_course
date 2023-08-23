@@ -29,5 +29,3 @@ def test_get_product_by_id():
     assert db_name == api_name, f"Get Product by ID Returned Wrong Product. ID: {rand_product_id}" \
                                 f"DB Name: {db_name}, API NAME: {api_name}"
 
-    import pdb; pdb.set_trace()
-

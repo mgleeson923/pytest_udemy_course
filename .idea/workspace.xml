@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/env.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pytest_training_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytest_training_course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_create_product_smoke.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/helpers/product_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/product_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/utlities/genericUtilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/genericUtilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_products_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_products_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
