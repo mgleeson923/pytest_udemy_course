@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/env.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytest_training_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytest_training_course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_create_customer_smoke.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_get_customers_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/customers/test_get_customers_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +44,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "section__9__additional__test__cases",
-    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse/ssqaapitest",
+    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ssqaapitest" />
       <recent name="$PROJECT_DIR$/pytest_tutorial/my_tests" />
     </key>
@@ -104,6 +104,17 @@
       <updated>1687205072723</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
