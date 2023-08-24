@@ -3,6 +3,7 @@ import pytest
 from ssqaapitest.src.utlities.requestUtilities import RequestUtilities
 
 
+@pytest.mark.customers
 @pytest.mark.tcid30
 def test_get_all_customers():
     req_helper = RequestUtilities()
