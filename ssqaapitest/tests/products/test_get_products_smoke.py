@@ -4,7 +4,9 @@ from ssqaapitest.src.dao.products_dao import ProductsDAO
 from ssqaapitest.src.helpers.product_helper import ProductHelper
 
 
-@pytest.mark.products
+pytestmark = [pytest.mark.products, pytest.mark.smoke]
+
+
 @pytest.mark.tcid24
 def test_get_all_products():
     req_helper = RequestUtilities()
@@ -12,7 +14,6 @@ def test_get_all_products():
     assert rs_api, f"Get All Products Endpoint Returned Empty"
 
 
-@pytest.mark.products
 @pytest.mark.tcid25
 def test_get_product_by_id():
     # Get a Product from the Database

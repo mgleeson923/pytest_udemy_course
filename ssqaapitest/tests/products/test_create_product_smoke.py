@@ -3,8 +3,9 @@ from ssqaapitest.src.utlities.genericUtilities import generate_random_string
 from ssqaapitest.src.helpers.product_helper import ProductHelper
 from ssqaapitest.src.dao.products_dao import ProductsDAO
 
+pytestmark = [pytest.mark.products, pytest.mark.smoke]
 
-@pytest.mark.products
+
 @pytest.mark.tcid26
 def test_create_one_simple_product():
     # Generate Data
@@ -29,4 +30,3 @@ def test_create_one_simple_product():
     assert payload['name'] == db_product[0]['post_title']
     f"Product Name in DB does not match Product Name in API" \
     f"DB: {db_product[0]['post_title']}, API:{payload['name']}"
-
