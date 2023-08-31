@@ -7,6 +7,13 @@ API_HOSTS = {
 
 }
 
+WOO_API_HOSTS = {
+    "test": "http://mystore.local",
+    "dev": "",
+    "prod": ""
+
+}
+
 DB_HOST = {
 
 

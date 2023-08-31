@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c046444b-1519-4923-824e-19a136742cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_products_with_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/data/create_order_payload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/orders_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/src/utlities/wooAPIUtility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssqaapitest/tests/orders/test_create_order_smoke.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/dao/products_dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/helpers/product_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/helpers/product_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/products/test_create_product_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_create_product_smoke.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_products_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/tests/products/test_get_products_smoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssqaapitest/src/configs/hosts_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssqaapitest/src/configs/hosts_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;section__9__additional__test__cases&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Section__10__WooCommerce__Python__Library",
+    "last_opened_file_path": "/Users/michaelgleeson/Desktop/Github/Udemy/pythonCourse",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -58,6 +63,7 @@
       <recent name="$PROJECT_DIR$/pytest_tutorial/my_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssqaapitest/src/utlities" />
       <recent name="$PROJECT_DIR$/pytest_tutorial" />
     </key>
   </component>
